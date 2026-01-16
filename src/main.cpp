@@ -2,6 +2,8 @@
 #include <string>
 #include "Star.hpp"
 #include "Planet.hpp"
+#include "vector3.hpp"
+#include "vector3.hpp"
 
 void GetInput() {
 
@@ -16,19 +18,14 @@ void DrawSimulation() {
 }
 
 int main() {
-    Star Sun;
+    vector3 position {0,0,0};
+    Star Sun {position, 1.00};
     Planet Earth;
 
     while (true) {
         GetInput();
         UpdateSimulation();
         DrawSimulation();
-
-        std::string input {};
-
-        std::cout << "> ";
-        std::getline(std::cin, input);
-
     }
     return 0;
 }

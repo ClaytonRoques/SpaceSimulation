@@ -10,4 +10,5 @@ add_executable(SpaceSimuation src/main.cpp
         src/Planet.hpp
         src/Star.cpp
         src/Star.hpp
+        src/vector3.hpp
 )

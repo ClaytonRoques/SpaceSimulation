@@ -3,3 +3,7 @@
 //
 
 #include "Star.hpp"
+
+void Star() {
+
+};

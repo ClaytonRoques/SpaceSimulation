@@ -5,8 +5,13 @@
 #ifndef SPACESIMUATION_STAR_HPP
 #define SPACESIMUATION_STAR_HPP
 
+#include "vector3.hpp"
 
 class Star {
+public:
+    vector3 position;
+    const double solarMasses;
+private:
 };
 
 
